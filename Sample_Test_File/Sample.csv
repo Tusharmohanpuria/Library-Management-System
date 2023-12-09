@@ -1,0 +1,4 @@
+userFullName,admissionId,employeeId,dob,gender,mobileNumber,email,password,photo
+John Doe,12345,,1998-01-15,Male,555-555-5555,johndoe@example.com,secret_password1,
+Jane Smith,,5160123,1993-05-20,Female,555-555-5556,janesmith@example.com,secret_password2,
+Bob Johnson,54321,,2001-09-10,Male,555-555-5557,bobjohnson@example.com,secret_password3,
