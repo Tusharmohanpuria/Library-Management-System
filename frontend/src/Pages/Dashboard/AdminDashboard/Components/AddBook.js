@@ -286,6 +286,7 @@ const handleScanResult = (content) => {
 
 const handleCSVFileUpload = async (e) => {
   e.preventDefault();
+  setIsLoadingISBN(true);
 
   try {
     const file = e.target.files[0];
@@ -374,6 +375,8 @@ const handleCSVFileUpload = async (e) => {
     console.error('Error reading CSV file:', error);
     setSuccessMessage(`Error reading CSV file: ${error.message}`);
   }
+
+  setIsLoadingISBN(false);
 };
 
 const toggleForm = () => {
@@ -407,7 +410,13 @@ return (
           accept=".csv"
           id="csvFile"
           onChange={(e) => handleCSVFileUpload(e)}
+          readOnly={isLoadingISBN}
         />
+        {isLoadingISBN && (
+          <div className="loading-spinner">
+            <div className="spinner"></div>
+          </div>
+        )}
       </form>
       ) : (
         <>

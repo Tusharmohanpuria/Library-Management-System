@@ -95,7 +95,9 @@ function Return({ onReturn, refresh4 }) {
 
   const payfine = async (due) => {
     const amount = due * 10;
-    const link = `upi://pay?pa=tusharmohanpuria2003@okaxis&pn=Tushar Mohanpuria&tn=Testing&am=${amount}&cu=INR&tr=01234`;
+    const upi = "library@upi"; // set your own upi id here
+    const name = "Library"; // set your own name here
+    const link = `upi://pay?pa=${upi}&pn=${name}&tn=Testing&am=${amount}&cu=INR&tr=01234`;
 
     try {
       const qr = new QRCode({

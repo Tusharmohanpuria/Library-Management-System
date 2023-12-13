@@ -278,6 +278,7 @@ function AddMember({ onMemberAdded, refresh6 }) {
 
     const handleFileInputChange = (e) => {
         const file = e.target.files[0];
+        setIsLoading(true);
         if (file) {
           const fileExtension = file.name.split('.').pop().toLowerCase();
           if (fileExtension === "csv") {
@@ -290,6 +291,7 @@ function AddMember({ onMemberAdded, refresh6 }) {
         } else {
           setSuccessMessage("Please select a file to upload.");
         }
+        setIsLoading(false);
       };
       
 
@@ -323,7 +325,13 @@ function AddMember({ onMemberAdded, refresh6 }) {
                         accept=".csv"
                         id="csvFile"
                         onChange={handleFileInputChange}
-                    />
+                        readOnly={isLoading}
+                        />
+                        {isLoading && (
+                          <div className="loading-spinner">
+                            <div className="spinner"></div>
+                          </div>
+                        )}
                 </form>
             ) : (
                 <form className="addmember-form" onSubmit={addMember}>
