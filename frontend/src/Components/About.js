@@ -11,7 +11,7 @@ function About() {
                 </div>
                 <div>
                 <p className="about-text">
-                    Library management system For IIIT Manipur, designed by Tushar Mohanpuria for both students and staff, leverages the MERN stack to revolutionize traditional library management. Operating as a web-based platform, it introduces automation across various tasks, ensuring a seamless experience for users. Notable features include the automatic generation of QR codes for book copies, simplifying the borrowing process, and the integration of UPI deep link QR codes for fines.
+                    Library management system, designed by Tushar Mohanpuria for both students and staff, leverages the MERN stack to revolutionize traditional library management. Operating as a web-based platform, it introduces automation across various tasks, ensuring a seamless experience for users. Notable features include the automatic generation of QR codes for book copies, simplifying the borrowing process, and the integration of UPI deep link QR codes for fines.
                     <br /><br />
                     This tech-driven system eliminates manual entry by automatically extracting book data using ISBN, enhancing efficiency. Students benefit from a due date notification system and a self-checkout option, promoting effective management of borrowings. Reviews from previous students foster a sense of community, providing valuable insights for new borrowers. Users can preview and evaluate books, making informed decisions tailored to their preferences. Our library exemplifies the transformative power of technology, creating a modern, efficient, and user-centric environment.
                     <br /><br />
