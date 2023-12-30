@@ -71,6 +71,19 @@ This project contains scripts for setting up a development environment with Node
 
         The script will open the browser automatically with the link to the web app.
 
+## Project Videos
+
+Explore the Library Management System through these informative videos, offering a quick overview of key aspects:
+
+### Video 1: Key Feature Showcase
+[![Introduction to Library Management System Key Features](./Project_Video/Thumbnail/Features.gif)](./Project_Video/Features.mp4)
+
+### Video 2: Deployment Guide
+[![Library Management System Installation Guide](./Project_Video/Thumbnail/Deployment.gif)](./Project_Video/Deployment.mp4)
+
+### Video 3: Final Demo
+[![Library Management System Demo](./Project_Video/Thumbnail/Demo.gif)](./Project_Video/Demo.mp4)
+
 ## Note
 
 - Linux users: Ensure necessary permissions to execute the script.
