@@ -76,13 +76,13 @@ This project contains scripts for setting up a development environment with Node
 Explore the Library Management System through these informative videos, offering a quick overview of key aspects:
 
 ### Video 1: Key Feature Showcase
-[![Introduction to Library Management System Key Features](./Project_Video/Thumbnail/Features.gif)](./Project_Video/Features.mp4)
+[![Introduction to Library Management System Key Features](./Thumbnail/Features.gif)](./Project_Video/Features.mp4)
 
 ### Video 2: Deployment Guide
-[![Library Management System Installation Guide](./Project_Video/Thumbnail/Deployment.gif)](./Project_Video/Deployment.mp4)
+[![Library Management System Installation Guide](./Thumbnail/Deployment.gif)](./Project_Video/Deployment.mp4)
 
 ### Video 3: Final Demo
-[![Library Management System Demo](./Project_Video/Thumbnail/Demo.gif)](./Project_Video/Demo.mp4)
+[![Library Management System Demo](./Thumbnail/Demo.gif)](./Project_Video/Demo.mp4)
 
 ## Note
 
